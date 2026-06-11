@@ -1,0 +1,13 @@
+print("hola,bienvenido a la calculadora basica")
+nombre_saludo = input("cual es tu nombre? =>   ")
+print(nombre_saludo)
+print(f"hola {nombre_saludo} puedes usar esta calcula sumando o restando solamente")
+
+num1 = float(input("ingresa el primer numero aqui=>   "))
+print(num1)
+num2 = float(input("ingresa el segundo numero aqui=>   "))
+print(num2)
+suma_numeros = (num1+num2)
+resta_numeros = (num1-num2)
+print(f"la suma de los numeros es {suma_numeros}")
+print(f"a resta de los numeros es {resta_numeros}")
